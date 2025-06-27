@@ -1,0 +1,31 @@
+from django.http import HttpResponse
+def day16(request):
+    return HttpResponse("day16") 
+def day17(request):
+    return HttpResponse("day17") 
+def day18(request):
+    return HttpResponse("day18")  
+def day19(request):
+    return HttpResponse("day19") 
+def day20(request):
+    return HttpResponse("day20") 
+def day21(request):
+    return HttpResponse("day21") 
+def day22(request):
+    return HttpResponse("day22") 
+def day23(request):
+    return HttpResponse("day23")
+def day24(request):
+    return HttpResponse("day24") 
+def day25(request):
+    return HttpResponse("day25") 
+def day26(request):
+    return HttpResponse("day26") 
+def day27(request):
+    return HttpResponse("day27") 
+def day28(request):
+    return HttpResponse("day28") 
+def day29(request):
+    return HttpResponse("day29") 
+def day30(request):
+    return HttpResponse("day30")  

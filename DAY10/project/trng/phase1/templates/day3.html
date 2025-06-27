@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/first.css' %}">
+<script src="{% static 'js/script.js' %}">
+</script>
+</head>
+<body>
+<h1>Welcome to home page</h1>
+<img src="{% static 'img/345.png' %}" height=200 width=400>
+<p>FirstNumber:<input id="txtFirstNumber"></p>
+<p>SecondNumber:<input id="txtSecondNumber"></p>
+<button onclick="add()">Add Them</button>
+<button onclick="sub()">Subtract Them</button>
+<p>sum=<input id="txtAnswer"></p>
+</body>
+</html>
